@@ -3,9 +3,7 @@
     padding: 25px 50px 75px 100px;
 }
 
-li{
-    text-align: center;
-}
+
 
 .container{
     display: grid;
@@ -22,7 +20,7 @@ li{
 }
 #item-1{
     grid-row-start:1 ;
-    grid-row-end:3
+    grid-row-end:4
 }
 #item-2{
     grid-column-start:2;

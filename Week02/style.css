@@ -1,7 +1,3 @@
-.first{
-    border: 2px solid red;
-    padding: 25px 50px 75px 100px;
-}
 
 .container{
     display: grid;

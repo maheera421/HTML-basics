@@ -1,0 +1,23 @@
+.container{
+    border: 2px solid blue;
+}
+
+.row{
+    border: 2px solid yellow;
+}
+
+.col-1{
+    border: 2px solid red;
+}
+
+.col-4{
+    border: 2px solid green;
+}
+
+.col-2{
+    border: 2px solid purple;
+}
+
+.mycol{
+    border: 2px solid red;
+}

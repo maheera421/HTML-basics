@@ -39,7 +39,7 @@ let complexArray = [
 
 // push and unshift to add the values at end and start of array respectively
 
-const stack = [];
+/*const stack = [];
 
 function pushToStack(item) {
   stack.push(item);
@@ -62,4 +62,17 @@ console.log("Stack:", stack);
 
 const poppedItem = popFromStack();
 console.log("Popped item:", poppedItem);
-console.log("Stack after popping:", stack);
+console.log("Stack after popping:", stack);*/
+
+let enter_button = document.querySelector('button');
+enter_button.addEventListener('click', input_message);
+
+/*function display_message(){
+  alert("Hello");
+}*/
+
+function input_message(){
+  let name = prompt('Enter your name: ');
+  enter_button.textContent = 'Name =' + name;
+}
+

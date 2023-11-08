@@ -19,15 +19,3 @@ function previous(){
     child2.setAttribute('class', 'line');
     count--;
 }
-
-/*function previous(){
-first.addEventListener('click', filled_circle);
-
-    function filled_circle(){
-        child.remove();
-}
-}
-
-function forward(){
-
-}*/
